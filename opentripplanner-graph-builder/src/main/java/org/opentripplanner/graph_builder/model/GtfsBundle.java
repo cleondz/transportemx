@@ -184,13 +184,13 @@ public class GtfsBundle {
                 throw new RuntimeException("GTFS Path " + path + " cannot be read.");
             }
         } else if (url != null) {
-            try {
+            /*try {
                 HttpUtils.testUrl(url.toExternalForm());
             } catch (ClientProtocolException e) {
                 throw new RuntimeException("Error connecting to " + url.toExternalForm() + "\n" + e);
             } catch (IOException e) {
                 throw new RuntimeException("GTFS url " + url.toExternalForm() + " cannot be read.\n" + e);
-            }
+            }*/
         }
 
     }
